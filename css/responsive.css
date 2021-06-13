@@ -14,14 +14,94 @@
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    .navbar-toggler {
+        padding: 6px;
+        border-radius: 2px;
+        border: 2px solid rgb(243, 238, 238);
+        width: 45px;
+        height: inherit;
+        position: relative;
+        padding-bottom: 5px;
+    }
+    .navbar-icon {
+        background: #fff;
+        height: 3px;
+        width: 20px;
+        margin: auto;
+        margin: 0 4px;
+        display: block;
+        margin: auto;
+        margin-top: 3px;
+    }
+    ul.navbar-nav {
+        background: #fff;
+        margin-top: 20px;
+        padding: 20px;
+        box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    }
+   
+    .main-menu .navbar-nav li.nav-item {
+        margin: 0 20px;
+    }
+    .main-menu .navbar-nav li.nav-item:first-child {
+        margin-left: 20px;
+    }
+    .main-menu .navbar-nav li.nav-item a.nav-link {
+        font-size: 15px;
+        padding: 11px 0;
+        color: #5a5461;
+    }
+    .main-menu .header-btn{
+        float: left;
+        margin-left: 0;
+    }
 
 }
 
  
 /* small mobile :320px. */
 @media (max-width: 767px) {
-
+    .navbar-toggler {
+        padding: 8px;
+        border-radius: 2px;
+        border: 2px solid #fff;
+        width: 45px;
+        height: inherit;
+        position: relative;
+        padding-bottom: 10px;
+    }
+    .navbar-icon {
+        background: #fff;
+        height: 3px;
+        width: 20px;
+        margin: auto;
+        margin: 0 4px;
+        display: block;
+        margin: auto;
+        margin-top: 3px;
+    }
+    ul.navbar-nav {
+        background: #fff;
+        margin-top: 20px;
+        padding: 20px;
+        box-shadow: 0 10px 15px rgba(25, 25, 25, 0.1);
+    }
+    .main-menu .navbar-nav li.nav-item {
+        margin: 0;
+    }
+    .main-menu .navbar-nav li.nav-item:first-child {
+        margin-left: 0px;
+    }
+    .main-menu .navbar-nav li.nav-item a.nav-link {
+        font-size: 15px;
+        padding: 11px 0;
+        color: #5a5461;
+    }
+    .main-menu .header-btn{
+        float: left;
+        margin-left: 0;
+    }
+    
  
 }
  
